@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+      <h1 class="container"> Currency Converter </h1>
+      <img id="img" src="https://cdn.iconscout.com/icon/free/png-256/free-currency-exchange-1783333-1516830.png?f=webp">
+       <form class="container1">
+          <input placeholder="Enter Amount" id="amount" type="number">
+          <select id="FromCurrency">
+            <option>From</option>
+            <option value="PKR">PKR</option>
+            <option value="USD">USD</option>
+            <option value="AED">AED</option>
+            <option value="EUR">EUR</option>
+            <option value="AUD">AUD</option>
+            <option value="BHD">BHD</option>
+            <option value="OMR">OMR</option>
+            <option value="RSD">RSD</option>
+            <option value="SCR">SCR</option>
+            <option value="THB">THB</option>
+
+          </select>
+
+          <select id="ToCurrency">
+            <option>To</option>
+            <option value="PKR">PKR</option>
+            <option value="USD">USD</option>
+            <option value="AED">AED</option>
+            <option value="EUR">EUR</option>
+            <option value="AUD">AUD</option>
+            <option value="BHD">BHD</option>
+            <option value="OMR">OMR</option>
+            <option value="RSD">RSD</option>
+            <option value="SCR">SCR</option>
+            <option value="THB">THB</option>
+      </select>
+      <button type="button" onclick="convert()">Convert</button>
+      <h2 id="result"></h2>
+       </form>
+
+
+
+    <script src="CurrencyExchange.js"></script>
+</body>
+</html>
